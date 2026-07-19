@@ -1,21 +1,29 @@
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
+# OS specific files
 .DS_Store
 
+# Virtual environments
 .venv/
 venv/
+torch-env/
 
+# Analysis & Plots outputs
 plots/
-
 *.parquet
 *.npy
 *.pdf
 *.png
+
+# Cluster & Logging outputs
 *.log
 *.out
 *.err
-
 workdir_condor/
+
+# Personal development folder
+/dev/
